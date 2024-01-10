@@ -1,13 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Laura Ruiz de Frutos</title>
+    <title>Página con Imagen</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        img {
+            max-width: 80%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-
-    <img src="portfolio_imagen.jpg" alt="Your Image">
-
+    <div class="container">
+        <img src="tu_imagen.jpg" alt="Descripción de la imagen">
+    </div>
 </body>
 </html>
+
