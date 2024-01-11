@@ -12,53 +12,53 @@
         }
 
         .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto; /* Añadido para centrar el contenedor en la pantalla */
-  background-color: #807A7B;
-}
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto; /* Añadido para centrar el contenedor en la pantalla */
+            /*background-color: #807A7B;*/
+        }
 
-.grupo{
-    display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 0 auto; /* Añadido para centrar el contenedor en la pantalla */
-  background-color: #807A00;
-}
+        .grupo{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0 auto; /* Añadido para centrar el contenedor en la pantalla */
+            /*background-color: #807A00;*/
+        }
 
-.image-center{
-  background-color: #FF9000;
-}
+        .image-center{
+            /*background-color: #FF9000;*/
+        }
 
-.image-left,
-  .image-right {
-                display: block;
-                width: 30%;
-                height: auto;
+        .image-left,
+        .image-right {
+            display: block;
+            width: 30%;
+            height: auto;
+        }
+
+        .image-center {
+            width: 70%;
+        }
+
+
+        @media (max-width: 1000px) {
+            .container {
+              width: 100%;
             }
-
-            .image-center {
-                width: 70%;
-            }
-
-
-@media (max-width: 1000px) {
-    .container {
-      width: 100%;
-    }
-            
+                    
             .image-left,
             .image-right {
                 display: block;
-                width: 0%;
+                 width: 0%;
                 height: auto;
             }
-
+        
             .image-center {
                 width: 100%;
             }
